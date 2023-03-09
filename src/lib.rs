@@ -60,7 +60,16 @@ impl IntList {
             if i > largest {
                 second_largest = largest;
                 largest = i;
+            } else if i > second_largest && i != largest {
+                second_largest = i;
+            } else if second_largest == largest && i < largest {
+                second_largest = i;
             }
+        }
+
+        // If the largest and second largest are the same, then all values are the same and there is no second largest
+        if largest == second_largest {
+            return None;
         }
 
         return Some(second_largest);
