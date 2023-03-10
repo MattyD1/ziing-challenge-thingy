@@ -13,7 +13,7 @@ The purpose is to implement the methods described above. There is no need to ens
 
 I ended up choosing to code my solution in `Rust` cause its cool. I have been trying to learn it for the past couple of months making this a good way of practicing.
 
-The **IntList* class is in the `lib.rs` file in the src directory. The unit tests are in the `integration_test.rs` file in the test directory.
+The **IntList** class is in the `lib.rs` file in the src directory. The unit tests are in the `integration_test.rs` file in the test directory.
 
 As tradition with most of my classes in uni, I have added a screenshot to this file showing the unit tests passing.
 
